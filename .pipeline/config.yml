@@ -6,6 +6,6 @@ cloudFoundryDeploy:
     deployTool: 'mtaDeployPlugin'
     deployType: 'standard'
     cloudFoundry:
-      org: '381df7bd-80fb-4f8a-9266-2bda3fa1c8aa'
+      org: 'i530140trial'
       space: 'dev'
       credentialsId: 'CF_CREDENTIALSID'
