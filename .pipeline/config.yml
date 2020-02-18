@@ -6,6 +6,6 @@ cloudFoundryDeploy:
     deployTool: 'mtaDeployPlugin'
     deployType: 'standard'
     cloudFoundry:
-      org: 'i530140trial'
+      org: 'https://api.cf.eu10.hana.ondemand.com'
       space: 'dev'
       credentialsId: 'CF_CREDENTIALSID'
