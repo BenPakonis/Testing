@@ -4,4 +4,4 @@ applications:
   path: .
   buildpack: nodejs_buildpack
   memory: 128M
-  host: 'myhost456231879'
+  host: myhost456231879
