@@ -10,4 +10,7 @@ node() {
     stage('deploy') {
         cloudFoundryDeploy script: this
     }
+    stage('postman tests') {
+        newmanExecute script: this
+    }
 }
