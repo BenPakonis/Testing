@@ -10,4 +10,4 @@ steps:
       space: 'dev'
       credentialsId: 'CF_CREDENTIALSID'
   newmanExecute:
-      newmanCollection: '/PiperTestCollection.postman_collection.json'
+      newmanCollection: '**/PiperTestCollection.postman_collection.json'
