@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "39e747a5-9d92-44f5-b356-b33fba9c07d6",
+		"name": "PiperTestCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Test",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "002c2e0b-f551-403b-9a17-8c4d58fff797",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://i530140trial-dev-piper-node-hello-world.cfapps.eu10.hana.ondemand.com/users",
+					"protocol": "https",
+					"host": [
+						"i530140trial-dev-piper-node-hello-world",
+						"cfapps",
+						"eu10",
+						"hana",
+						"ondemand",
+						"com"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
