@@ -9,3 +9,5 @@ steps:
       org: 'i530140trial'
       space: 'dev'
       credentialsId: 'CF_CREDENTIALSID'
+    newmanExecute:
+      newmanCollection: 'C:\Development\PostmanCollections\CompanyManager.postman_collection.json'
