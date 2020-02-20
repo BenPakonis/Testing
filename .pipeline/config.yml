@@ -11,4 +11,4 @@ steps:
       credentialsId: 'CF_CREDENTIALSID'
   newmanExecute:
       newmanCollection: '**/PiperTestCollection.postman_collection.json'
-      newmanRunCommand: 'newman run PiperTestCollection.postman_collection.json'
+      newmanRunCommand: 'run PiperTestCollection.postman_collection.json'
